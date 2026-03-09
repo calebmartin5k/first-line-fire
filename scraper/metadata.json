@@ -1,0 +1,54 @@
+{
+  "baseUrl": "https://www.firstlinefire.com",
+  "scrapedAt": "2026-03-09T15:19:19.561Z",
+  "totalPages": 5,
+  "successful": 5,
+  "failed": 0,
+  "pages": [
+    {
+      "url": "https://www.firstlinefire.com/industries/river-industry",
+      "timestamp": "2026-03-09T15:17:48.615Z",
+      "viewport": {
+        "width": 1440,
+        "height": 1080
+      },
+      "success": true
+    },
+    {
+      "url": "https://www.firstlinefire.com/locations",
+      "timestamp": "2026-03-09T15:18:12.429Z",
+      "viewport": {
+        "width": 1440,
+        "height": 1080
+      },
+      "success": true
+    },
+    {
+      "url": "https://www.firstlinefire.com/fire-extinguisher-sales-service",
+      "timestamp": "2026-03-09T15:18:40.309Z",
+      "viewport": {
+        "width": 1440,
+        "height": 1080
+      },
+      "success": true
+    },
+    {
+      "url": "https://www.firstlinefire.com/fire-safety-articles",
+      "timestamp": "2026-03-09T15:19:02.997Z",
+      "viewport": {
+        "width": 1440,
+        "height": 1080
+      },
+      "success": true
+    },
+    {
+      "url": "https://www.firstlinefire.com/service",
+      "timestamp": "2026-03-09T15:19:19.438Z",
+      "viewport": {
+        "width": 1440,
+        "height": 1080
+      },
+      "success": true
+    }
+  ]
+}

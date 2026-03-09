@@ -1,0 +1,11 @@
+{
+  "/fire-extinguisher-sales-service/page": "app/fire-extinguisher-sales-service/page.js",
+  "/fire-safety-articles/page": "app/fire-safety-articles/page.js",
+  "/internal/page": "app/internal/page.js",
+  "/locations/page": "app/locations/page.js",
+  "/maritime-architect/page": "app/maritime-architect/page.js",
+  "/page": "app/page.js",
+  "/river-industry/page": "app/river-industry/page.js",
+  "/service/page": "app/service/page.js",
+  "/tools/page": "app/tools/page.js"
+}
