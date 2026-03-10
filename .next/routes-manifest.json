@@ -39,6 +39,54 @@
       "regex": "^/_not\\-found(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/fire-extinguisher-sales-service",
+      "regex": "^/fire\\-extinguisher\\-sales\\-service(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/fire\\-extinguisher\\-sales\\-service(?:/)?$"
+    },
+    {
+      "page": "/fire-safety-articles",
+      "regex": "^/fire\\-safety\\-articles(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/fire\\-safety\\-articles(?:/)?$"
+    },
+    {
+      "page": "/internal",
+      "regex": "^/internal(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/internal(?:/)?$"
+    },
+    {
+      "page": "/locations",
+      "regex": "^/locations(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/locations(?:/)?$"
+    },
+    {
+      "page": "/maritime-architect",
+      "regex": "^/maritime\\-architect(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/maritime\\-architect(?:/)?$"
+    },
+    {
+      "page": "/river-industry",
+      "regex": "^/river\\-industry(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/river\\-industry(?:/)?$"
+    },
+    {
+      "page": "/service",
+      "regex": "^/service(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/service(?:/)?$"
+    },
+    {
+      "page": "/tools",
+      "regex": "^/tools(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools(?:/)?$"
     }
   ],
   "dataRoutes": [],

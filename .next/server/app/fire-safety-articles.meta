@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/fire-safety-articles/layout,_N_T_/fire-safety-articles/page,_N_T_/fire-safety-articles"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/fire-safety-articles/__PAGE__",
+    "/fire-safety-articles",
+    "/_index",
+    "/_head"
+  ]
+}

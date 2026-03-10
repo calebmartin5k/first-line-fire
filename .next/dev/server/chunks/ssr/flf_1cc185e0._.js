@@ -12,7 +12,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$
 ;
 ;
 const metadata = {
-    title: 'My Google AI Studio App',
+    title: 'First-Line Fire Extinguisher Co.',
     description: 'First-Line Fire Extinguisher Co.'
 };
 function RootLayout({ children }) {

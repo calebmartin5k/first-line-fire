@@ -26,10 +26,10 @@ export default function Hero() {
     <section className="relative min-h-screen flex flex-col md:flex-row pt-24 md:pt-0">
       <div 
         ref={textRef}
-        className="w-full md:w-1/2 flex flex-col justify-center px-8 md:px-16 lg:px-24 py-12 z-10 bg-light"
+        className="w-full md:w-1/2 flex flex-col justify-start xl:justify-center px-8 md:px-10 lg:px-14 xl:px-16 2xl:px-24 pt-36 md:pt-44 lg:pt-40 xl:pt-24 2xl:pt-0 pb-12 z-10 bg-light"
       >
         <p className="text-sm uppercase tracking-[0.2em] mb-6 text-gray-500 font-medium">First-Line Fire Extinguisher Co.</p>
-        <h1 className="font-serif text-6xl md:text-7xl lg:text-8xl xl:text-9xl leading-[0.9] tracking-tight mb-8 text-balance">
+        <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[7rem] 2xl:text-9xl leading-[0.9] tracking-tight mb-8 text-balance">
           Premium<br />
           <span className="italic text-brand-red">Fire Safety</span>
         </h1>

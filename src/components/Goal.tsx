@@ -31,13 +31,13 @@ export default function Goal() {
 
   return (
     <section ref={sectionRef} id="about" className="py-24 md:py-40 px-8 md:px-16 lg:px-24 bg-[#e5e5e5]">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-16 md:gap-24">
-        <div className="w-full md:w-1/3 fade-up">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12 md:gap-16">
+        <div className="w-full md:w-1/3 fade-up text-center md:text-right">
           <h2 className="font-serif text-4xl md:text-5xl text-dark">Our goal is</h2>
         </div>
         
-        <div className="w-full md:w-1/3 fade-up">
-          <div className="aspect-[3/4] overflow-hidden rounded-sm">
+        <div className="w-full md:w-1/3 fade-up z-10 relative">
+          <div className="aspect-[3/4] overflow-hidden rounded-sm shadow-xl scale-110">
             <img 
               src="https://images.squarespace-cdn.com/content/v1/6048cdd38eac65234887e5fb/1615779359072-101Y9OSUIMBSJ5BVFQUW/2795627_orig.jpg" 
               alt="First-Line Fire Extinguisher Van" 
@@ -46,7 +46,7 @@ export default function Goal() {
           </div>
         </div>
 
-        <div className="w-full md:w-1/3 fade-up">
+        <div className="w-full md:w-1/3 fade-up text-center md:text-left">
           <p className="font-serif text-3xl md:text-4xl leading-tight text-dark">
             to deliver world-class fire protection through advanced techniques, customized systems, and a bespoke level of <span className="text-gray-400 italic">service</span> that makes every business feel secure.
           </p>

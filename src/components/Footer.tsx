@@ -9,13 +9,13 @@ export default function Footer() {
             <img 
               src="https://images.squarespace-cdn.com/content/v1/6048cdd38eac65234887e5fb/1615924069832-H7LY1AONNDW07LXVOZ12/First+Line+Fire+Extinguisher.png?format=1500w" 
               alt="First-Line Fire Extinguisher" 
-              className="h-12"
+              className="h-24 md:h-32"
             />
           </Link>
-          <p className="text-gray-400 text-sm">1333 N 8th Street, Paducah KY 42001</p>
+          <p className="text-gray-400 text-base">1333 N 8th Street, Paducah KY 42001</p>
         </div>
 
-        <div className="flex flex-col md:flex-row gap-8 text-sm text-gray-400">
+        <div className="flex flex-col md:flex-row gap-8 text-base text-gray-400">
           <a href="tel:2702791865" className="hover:text-white transition-colors">(270) 279-1865</a>
           <a href="mailto:sales@firstlinefire.com" className="hover:text-white transition-colors">sales@firstlinefire.com</a>
         </div>

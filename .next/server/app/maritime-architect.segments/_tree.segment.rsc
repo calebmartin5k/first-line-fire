@@ -1,0 +1,3 @@
+:HL["/_next/static/chunks/2bd85a0cf3aa151d.css","style"]
+:HL["https://images.squarespace-cdn.com/content/v1/6048cdd38eac65234887e5fb/1615924069832-H7LY1AONNDW07LXVOZ12/First+Line+Fire+Extinguisher.png?format=1500w","image"]
+0:{"buildId":"qIbuuIezo02Yq0JIn8bg4","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"maritime-architect","paramType":null,"paramKey":"maritime-architect","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

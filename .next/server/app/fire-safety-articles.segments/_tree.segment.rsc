@@ -1,0 +1,2 @@
+:HL["/_next/static/chunks/2bd85a0cf3aa151d.css","style"]
+0:{"buildId":"qIbuuIezo02Yq0JIn8bg4","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"fire-safety-articles","paramType":null,"paramKey":"fire-safety-articles","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

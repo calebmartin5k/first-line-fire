@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/fire-extinguisher-sales-service/layout,_N_T_/fire-extinguisher-sales-service/page,_N_T_/fire-extinguisher-sales-service"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/fire-extinguisher-sales-service/__PAGE__",
+    "/fire-extinguisher-sales-service",
+    "/_index",
+    "/_head"
+  ]
+}

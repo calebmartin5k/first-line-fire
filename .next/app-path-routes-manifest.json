@@ -1,5 +1,13 @@
 {
   "/_global-error/page": "/_global-error",
   "/_not-found/page": "/_not-found",
-  "/page": "/"
+  "/fire-extinguisher-sales-service/page": "/fire-extinguisher-sales-service",
+  "/fire-safety-articles/page": "/fire-safety-articles",
+  "/internal/page": "/internal",
+  "/locations/page": "/locations",
+  "/maritime-architect/page": "/maritime-architect",
+  "/page": "/",
+  "/river-industry/page": "/river-industry",
+  "/service/page": "/service",
+  "/tools/page": "/tools"
 }
