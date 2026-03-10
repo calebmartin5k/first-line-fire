@@ -720,7 +720,7 @@ function Goal() {
         "Goal.useEffect": ()=>{
             const ctx = __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].context({
                 "Goal.useEffect.ctx": ()=>{
-                    __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].fromTo('.fade-up', {
+                    __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].fromTo('.goal-intro', {
                         opacity: 0,
                         y: 40
                     }, {
@@ -731,9 +731,37 @@ function Goal() {
                         ease: 'power3.out',
                         scrollTrigger: {
                             trigger: sectionRef.current,
-                            start: 'top 70%'
+                            start: 'top 85%',
+                            once: true
                         }
                     });
+                    const copyTl = __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].timeline({
+                        scrollTrigger: {
+                            trigger: sectionRef.current,
+                            start: 'top 58%',
+                            toggleActions: 'play none none none',
+                            once: true
+                        }
+                    });
+                    copyTl.fromTo('.goal-copy', {
+                        y: 140,
+                        opacity: 0.35
+                    }, {
+                        y: 0,
+                        opacity: 1,
+                        duration: 1.05,
+                        ease: 'power3.out'
+                    }, 0);
+                    copyTl.fromTo('.goal-line', {
+                        opacity: 0,
+                        y: 90
+                    }, {
+                        opacity: 1,
+                        y: 0,
+                        duration: 0.9,
+                        stagger: 0.11,
+                        ease: 'power4.out'
+                    }, 0.12);
                 }
             }["Goal.useEffect.ctx"], sectionRef);
             return ({
@@ -744,83 +772,197 @@ function Goal() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         ref: sectionRef,
         id: "about",
-        className: "py-24 md:py-40 px-8 md:px-16 lg:px-24 bg-[#e5e5e5]",
+        className: "pt-10 pb-24 md:pt-14 md:pb-40 px-6 md:px-10 lg:px-12 bg-[#e5e5e5]",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12 md:gap-16",
+            className: "max-w-[1700px] mx-auto w-full grid grid-cols-1 md:grid-cols-[max-content_minmax(0,1fr)] gap-12 md:gap-10 lg:gap-16",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "w-full md:w-1/3 fade-up text-center md:text-right",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        className: "font-serif text-4xl md:text-5xl text-dark",
-                        children: "Our goal is"
-                    }, void 0, false, {
-                        fileName: "[project]/flf/src/components/Goal.tsx",
-                        lineNumber: 36,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "[project]/flf/src/components/Goal.tsx",
-                    lineNumber: 35,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "w-full md:w-1/3 fade-up z-10 relative",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "aspect-[3/4] overflow-hidden rounded-sm shadow-xl scale-110",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                            src: "https://images.squarespace-cdn.com/content/v1/6048cdd38eac65234887e5fb/1615779359072-101Y9OSUIMBSJ5BVFQUW/2795627_orig.jpg",
-                            alt: "First-Line Fire Extinguisher Van",
-                            className: "w-full h-full object-cover transition-all duration-700"
-                        }, void 0, false, {
-                            fileName: "[project]/flf/src/components/Goal.tsx",
-                            lineNumber: 41,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/flf/src/components/Goal.tsx",
-                        lineNumber: 40,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "[project]/flf/src/components/Goal.tsx",
-                    lineNumber: 39,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "w-full md:w-1/3 fade-up text-center md:text-left",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "font-serif text-3xl md:text-4xl leading-tight text-dark",
-                        children: [
-                            "to deliver world-class fire protection through advanced techniques, customized systems, and a bespoke level of ",
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "text-gray-400 italic",
-                                children: "service"
+                    className: "goal-intro w-full flex flex-col md:flex-row md:items-center gap-10 md:gap-8 lg:gap-10",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "w-full md:w-auto md:flex-none text-center md:text-right",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                className: "font-serif text-5xl md:text-6xl lg:text-7xl text-dark leading-none",
+                                children: "Our goal is"
                             }, void 0, false, {
                                 fileName: "[project]/flf/src/components/Goal.tsx",
-                                lineNumber: 51,
-                                columnNumber: 124
+                                lineNumber: 65,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/flf/src/components/Goal.tsx",
+                            lineNumber: 64,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "w-full max-w-sm md:max-w-none md:w-[320px] lg:w-[360px] z-10 relative",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "aspect-[3/4] overflow-hidden rounded-sm shadow-xl",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                    src: "https://images.squarespace-cdn.com/content/v1/6048cdd38eac65234887e5fb/1615779359072-101Y9OSUIMBSJ5BVFQUW/2795627_orig.jpg",
+                                    alt: "First-Line Fire Extinguisher Van",
+                                    className: "w-full h-full object-cover transition-all duration-700"
+                                }, void 0, false, {
+                                    fileName: "[project]/flf/src/components/Goal.tsx",
+                                    lineNumber: 70,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/flf/src/components/Goal.tsx",
+                                lineNumber: 69,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/flf/src/components/Goal.tsx",
+                            lineNumber: 68,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/flf/src/components/Goal.tsx",
+                    lineNumber: 63,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "w-full goal-copy text-center md:text-left md:pt-64 lg:pt-72",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "font-serif text-3xl md:text-[clamp(2.6rem,4.2vw,5.6rem)] leading-[1.03] text-dark",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "block overflow-hidden",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "goal-line block",
+                                    children: "to deliver world-class"
+                                }, void 0, false, {
+                                    fileName: "[project]/flf/src/components/Goal.tsx",
+                                    lineNumber: 81,
+                                    columnNumber: 53
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/flf/src/components/Goal.tsx",
+                                lineNumber: 81,
+                                columnNumber: 13
                             }, this),
-                            " that makes every business feel secure."
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "block overflow-hidden",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "goal-line block",
+                                    children: "fire protection through"
+                                }, void 0, false, {
+                                    fileName: "[project]/flf/src/components/Goal.tsx",
+                                    lineNumber: 82,
+                                    columnNumber: 53
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/flf/src/components/Goal.tsx",
+                                lineNumber: 82,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "block overflow-hidden",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "goal-line block",
+                                    children: "advanced techniques,"
+                                }, void 0, false, {
+                                    fileName: "[project]/flf/src/components/Goal.tsx",
+                                    lineNumber: 83,
+                                    columnNumber: 53
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/flf/src/components/Goal.tsx",
+                                lineNumber: 83,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "block overflow-hidden",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "goal-line block",
+                                    children: "customized systems, and"
+                                }, void 0, false, {
+                                    fileName: "[project]/flf/src/components/Goal.tsx",
+                                    lineNumber: 84,
+                                    columnNumber: 53
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/flf/src/components/Goal.tsx",
+                                lineNumber: 84,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "block overflow-hidden",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "goal-line block",
+                                    children: "a bespoke level of"
+                                }, void 0, false, {
+                                    fileName: "[project]/flf/src/components/Goal.tsx",
+                                    lineNumber: 85,
+                                    columnNumber: 53
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/flf/src/components/Goal.tsx",
+                                lineNumber: 85,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "block overflow-hidden",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "goal-line block",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "text-gray-400 italic",
+                                            children: "service"
+                                        }, void 0, false, {
+                                            fileName: "[project]/flf/src/components/Goal.tsx",
+                                            lineNumber: 86,
+                                            columnNumber: 87
+                                        }, this),
+                                        " that makes every"
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/flf/src/components/Goal.tsx",
+                                    lineNumber: 86,
+                                    columnNumber: 53
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/flf/src/components/Goal.tsx",
+                                lineNumber: 86,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "block overflow-hidden",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "goal-line block",
+                                    children: "business feel secure."
+                                }, void 0, false, {
+                                    fileName: "[project]/flf/src/components/Goal.tsx",
+                                    lineNumber: 87,
+                                    columnNumber: 53
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/flf/src/components/Goal.tsx",
+                                lineNumber: 87,
+                                columnNumber: 13
+                            }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/flf/src/components/Goal.tsx",
-                        lineNumber: 50,
+                        lineNumber: 80,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/flf/src/components/Goal.tsx",
-                    lineNumber: 49,
+                    lineNumber: 79,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/flf/src/components/Goal.tsx",
-            lineNumber: 34,
+            lineNumber: 62,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/flf/src/components/Goal.tsx",
-        lineNumber: 33,
+        lineNumber: 61,
         columnNumber: 5
     }, this);
 }
