@@ -34,7 +34,7 @@ export default function Hero() {
           <span className="italic text-brand-red">safety simple.</span>
         </h1>
         <p className="text-lg md:text-xl text-gray-600 max-w-md mb-12 leading-relaxed">
-          Your Trusted Fire Protection & Suppression Company in Paducah, KY. We make fire safety simple.
+          Your Trusted Fire Protection & Suppression Company in Paducah, KY.
         </p>
         
         <div className="flex gap-6 items-center">
