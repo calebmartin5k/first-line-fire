@@ -422,15 +422,15 @@ function Hero() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                         className: "font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[7rem] 2xl:text-9xl leading-[0.9] tracking-tight mb-8 text-balance",
                         children: [
-                            "Premium",
+                            "We make fire ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                 fileName: "[project]/flf/src/components/Hero.tsx",
                                 lineNumber: 33,
-                                columnNumber: 18
+                                columnNumber: 24
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "italic text-brand-red",
-                                children: "Fire Safety"
+                                children: "safety simple."
                             }, void 0, false, {
                                 fileName: "[project]/flf/src/components/Hero.tsx",
                                 lineNumber: 34,
@@ -484,7 +484,7 @@ function Hero() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                        src: "https://images.squarespace-cdn.com/content/v1/6048cdd38eac65234887e5fb/e9054e1c-5c5b-4fc1-a19a-84fe10a14036/identifying-businesses-in-need-first-line-fire?format=2500w",
+                        src: "/hero.webp",
                         alt: "Fire Extinguisher Technician",
                         className: "w-full h-full object-cover"
                     }, void 0, false, {

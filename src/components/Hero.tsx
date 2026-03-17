@@ -30,8 +30,8 @@ export default function Hero() {
       >
         <p className="text-sm uppercase tracking-[0.2em] mb-6 text-gray-500 font-medium">First-Line Fire Extinguisher Co.</p>
         <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[7rem] 2xl:text-9xl leading-[0.9] tracking-tight mb-8 text-balance">
-          Premium<br />
-          <span className="italic text-brand-red">Fire Safety</span>
+          We make fire <br />
+          <span className="italic text-brand-red">safety simple.</span>
         </h1>
         <p className="text-lg md:text-xl text-gray-600 max-w-md mb-12 leading-relaxed">
           Your Trusted Fire Protection & Suppression Company in Paducah, KY. We make fire safety simple.
@@ -50,7 +50,7 @@ export default function Hero() {
       >
         <div className="absolute inset-0 bg-black/20 z-10"></div>
         <img 
-          src="https://images.squarespace-cdn.com/content/v1/6048cdd38eac65234887e5fb/e9054e1c-5c5b-4fc1-a19a-84fe10a14036/identifying-businesses-in-need-first-line-fire?format=2500w" 
+          src="/hero.webp" 
           alt="Fire Extinguisher Technician" 
           className="w-full h-full object-cover"
         />
