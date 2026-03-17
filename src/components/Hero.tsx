@@ -26,10 +26,10 @@ export default function Hero() {
     <section className="relative min-h-screen flex flex-col md:flex-row pt-24 md:pt-0">
       <div 
         ref={textRef}
-        className="w-full md:w-1/2 flex flex-col justify-start xl:justify-center px-8 md:px-10 lg:px-14 xl:px-16 2xl:px-24 pt-36 md:pt-44 lg:pt-40 xl:pt-24 2xl:pt-0 pb-12 z-10 bg-light"
+        className="w-full md:w-1/2 flex flex-col justify-start xl:justify-center px-8 md:px-10 lg:px-14 xl:px-16 2xl:px-24 pt-48 md:pt-44 lg:pt-40 xl:pt-24 2xl:pt-0 pb-12 z-10 bg-light"
       >
-        <p className="text-sm uppercase tracking-[0.2em] mb-6 text-gray-500 font-medium">First-Line Fire Extinguisher Co.</p>
-        <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[7rem] 2xl:text-9xl leading-[0.9] tracking-tight mb-8 text-balance">
+        <p className="md:hidden text-sm uppercase tracking-[0.2em] mb-6 text-gray-500 font-medium">First-Line Fire Extinguisher Co.</p>
+        <h1 className="font-serif text-5xl sm:text-6xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-[7rem] leading-[0.9] tracking-tight mb-8 text-balance">
           We make fire <br />
           <span className="italic text-brand-red">safety simple.</span>
         </h1>

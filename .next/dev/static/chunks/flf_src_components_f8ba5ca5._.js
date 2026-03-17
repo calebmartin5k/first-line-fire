@@ -409,10 +409,10 @@ function Hero() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 ref: textRef,
-                className: "w-full md:w-1/2 flex flex-col justify-start xl:justify-center px-8 md:px-10 lg:px-14 xl:px-16 2xl:px-24 pt-36 md:pt-44 lg:pt-40 xl:pt-24 2xl:pt-0 pb-12 z-10 bg-light",
+                className: "w-full md:w-1/2 flex flex-col justify-start xl:justify-center px-8 md:px-10 lg:px-14 xl:px-16 2xl:px-24 pt-48 md:pt-44 lg:pt-40 xl:pt-24 2xl:pt-0 pb-12 z-10 bg-light",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-sm uppercase tracking-[0.2em] mb-6 text-gray-500 font-medium",
+                        className: "md:hidden text-sm uppercase tracking-[0.2em] mb-6 text-gray-500 font-medium",
                         children: "First-Line Fire Extinguisher Co."
                     }, void 0, false, {
                         fileName: "[project]/flf/src/components/Hero.tsx",
@@ -420,7 +420,7 @@ function Hero() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                        className: "font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[7rem] 2xl:text-9xl leading-[0.9] tracking-tight mb-8 text-balance",
+                        className: "font-serif text-5xl sm:text-6xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-[7rem] leading-[0.9] tracking-tight mb-8 text-balance",
                         children: [
                             "We make fire ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
@@ -444,7 +444,7 @@ function Hero() {
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$flf$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "text-lg md:text-xl text-gray-600 max-w-md mb-12 leading-relaxed",
-                        children: "Your Trusted Fire Protection & Suppression Company in Paducah, KY. We make fire safety simple."
+                        children: "Your Trusted Fire Protection & Suppression Company in Paducah, KY."
                     }, void 0, false, {
                         fileName: "[project]/flf/src/components/Hero.tsx",
                         lineNumber: 36,
